@@ -1,0 +1,1783 @@
+@charset "UTF-8";
+/* CSS Document */
+*
+{
+	margin: 0 auto;
+	text-align: center;
+	padding: 0;
+}
+body
+{
+	background-color: #F5F5F5;
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+footer
+{
+	background-color: #DDD;
+	width: 100%;
+}
+footer #wrapper-inferior
+{
+	padding: 1em 0;
+	position: relative;
+	width: 960px;
+}
+footer #wrapper-inferior #copyright
+{
+	height: 50px;
+	margin-left: 1em;
+	text-align: left;
+}
+footer #wrapper-inferior #copyright p
+{
+	display: inline-block;
+	font-size: 0.8em;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 0.5em;
+	vertical-align: top;
+}
+footer #wrapper-inferior #copyright p a
+{
+	color: #333;
+}
+footer #wrapper-inferior #copyright p a:hover
+{
+	color: #ff7100;
+}
+footer #wrapper-inferior #sellos
+{
+	position: absolute;
+	top: 1em;
+	right: 1em;
+}
+footer #wrapper-inferior #sellos ul li
+{
+	display: inline-block;
+	list-style: none;
+	margin-left: 0.5em;
+}
+footer #wrapper-inferior #sellos ul li a
+{
+	display: block;
+	height: 40px;
+	position: relative;
+	text-decoration: none;
+	width: 40px;
+}
+footer #wrapper-inferior #sellos ul li a span
+{
+	display: block;
+	height: 40px;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 40px;
+}
+footer #wrapper-inferior #sellos ul li a span:hover
+{
+	opacity: 1;
+}
+footer #wrapper-inferior #sellos ul li #sello-css3
+{
+	background: url("../images/iconos.png") no-repeat 0 -40px;
+}
+footer #wrapper-inferior #sellos ul li #sello-css3 span
+{
+	background: url("../images/iconos.png") no-repeat -40px -40px;
+}
+footer #wrapper-inferior #sellos ul li #sello-html5
+{
+	background: url("../images/iconos.png") no-repeat 0 0;
+}
+footer #wrapper-inferior #sellos ul li #sello-html5 span
+{
+	background: url("../images/iconos.png") no-repeat -40px 0;
+}
+footer #wrapper-inferior #sellos ul li #sello-kalpana
+{
+	background: url("../images/iconos.png") no-repeat 0 -80px;
+}
+footer #wrapper-inferior #sellos ul li #sello-kalpana span
+{
+	background: url("../images/iconos.png") no-repeat -40px -80px;
+}
+input:focus, textarea:focus{
+	outline: 0;
+}
+#wrapper-principal
+{
+	width: 960px;
+}
+#wrapper-principal header
+{
+	border-bottom: solid 1px #DDD;
+	padding: 2em 0 1.5em;
+	position: relative;	
+	width: 100%;
+}
+#wrapper-principal header nav
+{
+	bottom: 1.5em;
+	position: absolute;
+	right: 0;
+}
+#wrapper-principal header nav ul li
+{
+	display: inline-block;
+	list-style: none;
+	margin-left: 1.5em;
+}
+#wrapper-principal header nav ul li a
+{
+	color: #333;
+	font-family: 'Poiret One', cursive;
+	font-size: 1em;
+	text-decoration: none;
+}
+#wrapper-principal header nav ul li a:hover
+{
+	color: #ff7100;
+}
+#wrapper-principal header #logotipo a
+{
+	background-image: url("../images/logo.png");
+	display: block;
+	height: 100px;
+	margin: 0 0 0 1em;
+	text-decoration: none;
+	width: 428px;
+}
+#wrapper-principal #wrapper-cuerpo
+{
+	margin: 1em 0;
+	min-height: 900px;
+}
+#wrapper-principal #wrapper-cuerpo #about-us 
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 398px;
+}
+#wrapper-principal #wrapper-cuerpo #about-us #groups
+{
+	display: block;
+	margin: 0;
+	padding: 0 1em;
+	width: 366px;
+}
+#wrapper-principal #wrapper-cuerpo #about-us #groups h3
+{
+	font-family: 'Poiret One', cursive;
+	font-size: 1.3em;
+	border-bottom: solid 1px #DDD;
+	padding: 1em 0 0.5em;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #about-us #groups p
+{
+	font-size: 0.9em;
+	line-height: 1.8em;
+	padding: 0.7em 0;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #about-us #groups p a
+{
+	color: #ff7100;
+	text-decoration: none;
+}
+#wrapper-principal #wrapper-cuerpo #about-us #groups p a:hover
+{
+	text-decoration: underline;
+}
+#wrapper-principal #wrapper-cuerpo #about-us #introduccion
+{
+	display: block;
+	margin: 0;
+	padding: 0 1em;
+	width: 366px;	
+}
+#wrapper-principal #wrapper-cuerpo #about-us #introduccion h3
+{
+	font-family: 'Poiret One', cursive;
+	font-size: 1.3em;
+	border-bottom: solid 1px #DDD;
+	padding: 1em 0 0.5em;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #about-us #introduccion p
+{
+	font-size: 0.9em;
+	line-height: 1.8em;	
+	padding: 0.7em 0;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #about-us #prices
+{
+	display: block;
+	margin: 0;
+	padding: 0 1em;
+	width: 366px;
+}
+#wrapper-principal #wrapper-cuerpo #about-us #prices h3
+{
+	font-family: 'Poiret One', cursive;
+	font-size: 1.3em;
+	border-bottom: solid 1px #DDD;
+	padding: 1em 0 0.5em;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #about-us #prices p
+{
+	font-size: 0.9em;
+	line-height: 1.8em;
+	padding: 0.7em 0;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #about-us #video-presentacion
+{
+	display: none;
+	margin: 1.2em 0 0;
+	padding: 0 1em;
+	text-align: left;
+	width: 366px;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog
+{
+	margin: 3em 0;
+	width: 100%;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cabecera-entrada-blog 
+{
+	border-bottom: solid 1px #DDD;
+	display: block;
+	text-align: left;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cabecera-entrada-blog div.fecha-entrada-blog
+{
+	background-color: #ff7100;
+	display: inline-block;
+	padding: 3px 6px;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cabecera-entrada-blog div.fecha-entrada-blog span.dia-fecha-entrada-blog
+{
+	color: #F5F5F5;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2.1em;
+	line-height: 1em;
+	vertical-align: middle;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cabecera-entrada-blog div.fecha-entrada-blog div.fecha-entrada-blog-derecha
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cabecera-entrada-blog div.fecha-entrada-blog div.fecha-entrada-blog-derecha span
+{
+	color: #333;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1em;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cabecera-entrada-blog div.fecha-entrada-blog div.fecha-entrada-blog-derecha span.anyo-fecha-entrada-blog
+{
+	font-size: 0.8em;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cabecera-entrada-blog div.fecha-entrada-blog div.fecha-entrada-blog-derecha span.mes-fecha-entrada-blog
+{
+	font-size: 1em;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cuerpo-entrada-blog
+{
+	display: block;
+	overflow: hidden;
+	padding: 16px;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cuerpo-entrada-blog h1
+{
+	display: block;
+	margin-bottom: 8px;
+	text-align: left;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cuerpo-entrada-blog h1 a
+{
+	color: #333;
+	font-family: 'TerminalDosis', sans-serif;
+	font-size: 22px;
+	text-align: justify;
+	text-decoration: none;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cuerpo-entrada-blog h1 a:hover
+{
+	color: #ff7100;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cuerpo-entrada-blog h2
+{
+	display: block;
+	margin-bottom: 8px;
+	text-align: left;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cuerpo-entrada-blog h2 a
+{
+	color: #333;
+	font-family: 'TerminalDosis', sans-serif;
+	font-size: 22px;
+	text-align: justify;
+	text-decoration: none;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cuerpo-entrada-blog h2 a:hover
+{
+	color: #ff7100;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cuerpo-entrada-blog h2.subtitulo-entrada-blog
+{
+	color: #FF7100;
+	font-family: 'TerminalDosis', sans-serif;
+	font-size: 18px;
+	margin: 16px 0 0;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cuerpo-entrada-blog img
+{
+	display: inline-block;
+	float: left;
+	height: 160px;
+	margin-right: 16px;
+	vertical-align: top;
+	width: 240px;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cuerpo-entrada-blog p
+{
+	display: block;
+	font-family: 'Open Sans', sans-serif; 
+	font-size: 15px;
+	margin-top: 16px;
+	text-align: justify;
+	vertical-align: top;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cuerpo-entrada-blog ul
+{
+	margin-top: 16px;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cuerpo-entrada-blog ul li
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	list-style: none;
+	margin: 8px 0 0 16px;
+	padding-left: 12px;
+	position: relative;
+	text-align: justify;
+	vertical-align: top;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.cuerpo-entrada-blog ul li span.bola-lista
+{
+	background-color: #ff7100;
+	border-radius: 6px;
+	height: 6px;
+	left: 0;
+	position: absolute;
+	top: 8px;
+	width: 6px;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.pie-entrada-blog
+{
+	display: block;
+	padding: 0 16px;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.pie-entrada-blog a.continua-leyendo
+{
+	color: #ff7100;
+	float: right;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	text-decoration: none;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.pie-entrada-blog a.continua-leyendo:hover
+{
+	text-decoration: underline;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.pie-entrada-blog a.continua-leyendo span
+{
+	vertical-align: top;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.pie-entrada-blog a.continua-leyendo span.icono-continua-leyendo
+{
+	vertical-align: bottom;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.pie-entrada-blog div.compartir-redes-sociales
+{
+	display: none;
+	float: left;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.pie-entrada-blog div.compartir-redes-sociales a
+{
+	text-decoration: none;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.pie-entrada-blog div.compartir-redes-sociales a img
+{
+	vertical-align: middle;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.pie-entrada-blog div.compartir-redes-sociales a.compartir-facebook img
+{
+	background: url('../images/iconos.png') no-repeat -110px 0;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.pie-entrada-blog div.compartir-redes-sociales a.compartir-twitter img
+{
+	background: url('../images/iconos.png') no-repeat -110px -25px;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.pie-entrada-blog div.compartir-redes-sociales div.separador-redes-sociales
+{
+	display: none;
+	border-bottom: solid 1px #AAA;
+	height: 0;
+	margin-left: 1px;
+	vertical-align: middle;
+	width: 3px;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog div.pie-entrada-blog div.compartir-redes-sociales span
+{
+	background-color: #DDD;
+	border: solid 1px #AAA;
+	color: #333;
+	display: none;
+	font-size: 12px;
+	margin: 0 4px 0 0;
+	padding: 0 3px;
+	position: relative;
+	vertical-align: middle;
+}
+#wrapper-principal #wrapper-cuerpo #blog article.entrada-blog-unica
+{
+	margin: 0 !important;
+}
+#wrapper-principal #wrapper-cuerpo #datos-contacto
+{
+	color: #333;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0 16px 0 16px;
+	vertical-align: top;
+	width: 368px;
+}
+#wrapper-principal #wrapper-cuerpo #datos-contacto article
+{
+	display: block;
+	margin-top: 16px;
+	text-align: left;
+}
+#wrapper-principal #wrapper-cuerpo #datos-contacto article a
+{
+	font-size: 14px;
+	text-decoration: none;
+}
+#wrapper-principal #wrapper-cuerpo #datos-contacto article a span
+{
+	color: #333;
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	vertical-align: middle;
+}
+#wrapper-principal #wrapper-cuerpo #datos-contacto article a span.icono-mail-contacto
+{
+	color: #ff7100;
+	margin-right: 4px;
+}
+#wrapper-principal #wrapper-cuerpo #datos-contacto article a:hover span
+{
+	color: #ff7100;
+}
+#wrapper-principal #wrapper-cuerpo #datos-contacto article h3
+{
+	color: #333;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+#wrapper-principal #wrapper-cuerpo #datos-contacto article div
+{
+	background-color: #FFF;
+	border: solid 1px #DDD;
+	display: inline-block;
+	margin: 10px 0;
+	padding-bottom: 8px;
+	width: 177px;
+}
+#wrapper-principal #wrapper-cuerpo #datos-contacto article div span
+{
+	display: block;
+	font-size: 13px;
+	padding: 0 8px;
+	text-align: left;
+}
+#wrapper-principal #wrapper-cuerpo #datos-contacto article div h4
+{
+	background-color: #DDD;
+	border-bottom: solid 1px #DDD;
+	color: #333;
+	display: block;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0 0 8px 0;
+	padding: 4px 8px;
+	position: relative;
+	text-align: left;
+	width: 161px;
+}
+#wrapper-principal #wrapper-cuerpo #datos-contacto article div h4 span
+{
+	height: 34px;
+	position: absolute;
+	right: -10px;
+	top: -2px;
+	transform: rotate(7deg);
+	-ms-transform: rotate(7deg);
+	-webkit-transform: rotate(7deg);
+	width: 34px;
+}
+#wrapper-principal #wrapper-cuerpo #datos-contacto article div h4 span.datos-contacto-espanya
+{
+	background: url('../images/iconos.png') no-repeat -110px -84px;
+}
+#wrapper-principal #wrapper-cuerpo #datos-contacto article div h4 span.datos-contacto-inglaterra
+{
+	background: url('../images/iconos.png') no-repeat -110px -50px;
+}
+#wrapper-principal #wrapper-cuerpo #datos-contacto article div span.telefono-datos-contacto
+{
+	margin-top: 10px;
+}
+#wrapper-principal #wrapper-cuerpo #datos-contacto article div.datos-contacto-derecha
+{
+	margin-left: 10px;
+}
+#wrapper-principal #wrapper-cuerpo #datos-contacto h2
+{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #datos-contacto p
+{
+	font-size: 14px;
+	margin-top: 10px;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto
+{
+	display: inline-block;
+	font-family: 'Open Sans' sans-serif;
+	padding: 0 16px 0 16px;
+	vertical-align: top;
+	width: 528px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form div.wrapper-submit-formulario
+{
+	height: 30px;
+	display: none;
+	margin-top: 4px;
+	overflow: hidden;
+	width: 132px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form div.wrapper-submit-formulario a
+{
+	background-color: #ff7100;
+	color: #F5F5F5;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	position: relative;
+	text-decoration: none;
+	width: 132px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form div.wrapper-submit-formulario a:active
+{
+	top: 4px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form div.wrapper-submit-formulario a span
+{
+	display: inline-block;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	width: 132px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form div.wrapper-submit-formulario a span.frontal
+{
+	left: 0;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form div.wrapper-submit-formulario a:hover span.frontal
+{
+	left: -132px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form div.wrapper-submit-formulario a span.trasera
+{
+	font-size: 17px;
+	left: 132px;
+	line-height: 30px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form div.wrapper-submit-formulario a:hover span.trasera
+{
+	left: 0;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form article
+{
+	background-color: #FFF;
+	border: solid 1px #DDD;
+	padding: 0 0 16px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form article div.columna-formulario-contacto
+{
+	display: inline-block;
+	vertical-align: top;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form article div.columna-formulario-contacto div.parametro-formulario-contacto
+{
+	margin-top: 10px;
+	text-align: left;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form article div.columna-formulario-contacto div.parametro-formulario-contacto input
+{
+	background-color: #FFF;
+	border: solid 1px #DDD;
+	color: #333;
+	display: block;
+	font-size: 14px;
+	height: 18px;
+	margin: 2px 0 0;
+	padding: 0 4px;
+	text-align: left;
+	width: 205px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form article div.columna-formulario-contacto div.parametro-formulario-contacto span.campo-obligatorio-icono
+{
+	color: #ff7100;
+	font-size: 12px;
+	margin: 1px 0 0 4px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form article div.columna-formulario-contacto div.parametro-formulario-contacto span.parametro-formulario-contacto-texto
+{
+	color: #333;
+	font-size: 14px;
+	margin: 0 0 4px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form article div.columna-formulario-contacto div.parametro-formulario-contacto textarea
+{
+	background-color: #FFF;
+	border: solid 1px #DDD;
+	color: #333;
+	display: block;
+	font-size: 14px;
+	height: 126px;
+	margin: 2px 0 0;
+	padding: 0 4px;
+	resize: none;
+	text-align: left;
+	width: 205px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form article div.columna-formulario-contacto-derecha
+{
+	margin: 0 32px 0 16px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form article div.columna-formulario-contacto-izquierda
+{
+	margin: 0 16px 0 32px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form article h1
+{
+	background-color: #333;
+	color: #f5f5f5;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -1px;
+	padding: 4px 16px;
+	position: relative;
+	text-align: left;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form article h1 span
+{
+	color: #ff7100;
+	font-size: 50px;
+	position: absolute;
+	right: 10px;	
+	transform: rotate(7deg);
+	-ms-transform:rotate(7deg);
+	-webkit-transform:rotate(7deg);
+	top: -10px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form article p.error-parametro-wrapper
+{
+	background-color: #DDD;
+	display: block;
+	font-weight: bold;
+	margin: 0;
+	padding: 4px 16px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form article p.error-parametro-wrapper span
+{
+	color: #333;
+	display: block;
+	font-size: 14px;
+	text-align: left;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form input[type=submit]
+{
+	background-color: #ff7100;
+	border: 0;
+	color: #F5F5F5;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 4px;
+	overflow: hidden;
+	position: relative;
+	text-decoration: none;
+	vertical-align: top;
+	width: 132px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form p
+{
+	display: block;
+	margin: 2px 16px;
+	text-align: right;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form p span
+{
+	color: #ff7100;
+	display: inline-block;
+	line-height: 14px;
+	vertical-align: middle;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form p span.campo-obligatorio-icono
+{
+	font-size: 12px;
+	margin-top: 1px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-contacto form p span.campo-obligatorio-texto
+{
+	font-size: 14px;
+	margin-left: 4px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 558px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article
+{
+	background-color: #fff;
+	border: solid 1px #DDD;
+	display: block;
+	margin: -1px 1em 0;
+	padding: 0 0 16px;
+	text-align: center;
+	width: 524px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje
+{
+	margin: 4px 0 0;
+	text-align: center;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje div.form-viaje-columna 
+{
+	height: auto;
+	vertical-align: top;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje div.form-viaje-columna div.parametro-form-viaje
+{
+	height: auto;
+	position: relative;
+	text-align: left;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje div.form-viaje-columna div.parametro-form-viaje button
+{
+	background-color: #FFF;
+	border: solid 1px #DDD;
+	bottom: 1px;
+	cursor: pointer;
+	height: 18px;
+	left: 1px;
+	opacity: 0;
+	position: absolute;
+	width: 183px;
+	z-index: 50;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje div.form-viaje-columna div.parametro-form-viaje button
+{
+	height: 18px;
+	width: 183px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje div.form-viaje-columna div.parametro-form-viaje input, #wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje div.form-viaje-columna div.parametro-form-viaje textarea
+{
+	background-color: #FFF;
+	border: solid 1px #CCC;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje div.form-viaje-columna div.parametro-form-viaje input[type="checkbox"]
+{
+	margin-right: 3px;
+	vertical-align: middle;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje div.form-viaje-columna div.parametro-form-viaje input[type="text"], #wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje div.form-viaje-columna div.parametro-form-viaje input[type="number"], #wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje div.form-viaje-columna div.parametro-form-viaje textarea
+{
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
+	height: 18px;
+	margin: 2px 0 2px 0;
+	padding: 0 4px;
+	text-align: left;
+	width: 175px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje div.form-viaje-columna div.parametro-form-viaje span
+{
+	display: inline-block;
+	font-size: 0.9em;
+	height: 19px;
+	line-height: 19px;
+	vertical-align: middle;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje div.form-viaje-columna div.parametro-form-viaje span.campo-obligatorio-icono
+{
+	color: #ff7100;
+	font-size: 12px;
+	margin: 1px 0 0 4px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje div.form-viaje-columna div.parametro-form-viaje span.icono-calendario
+{
+	border-left: solid 1px #DDD;
+	bottom: 2px;
+	color: #333;
+	cursor: pointer;
+	display: none;
+	font-size: 16px;
+	height: 19px;
+	left: 155px;
+	line-height: 19px;
+	padding-left: 6px;
+	position: absolute;
+	width: 16px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje div.form-viaje-columna div.parametro-form-viaje textarea
+{
+	height: 202px;
+	resize: none;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje div.form-viaje-columna div.parametro-form-viaje-text
+{
+	height: 46px !important;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje div.form-viaje-columna-doble
+{
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	width: 228px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article div.cuerpo-form-viaje div.form-viaje-columna-triple
+{
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	width: 150px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article h4
+{
+	background-color: #333;
+	color: #f5f5f5;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: -1px;
+	padding: 4px 16px;
+	position: relative;
+	text-align: left;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article h4 span
+{
+	color: #ff7100;
+	font-size: 50px;
+	position: absolute;
+	right: 10px;	
+	transform: rotate(7deg);
+	-ms-transform:rotate(7deg);
+	-webkit-transform:rotate(7deg);
+	top: -10px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article p
+{
+	color: #333;
+	display: block;
+	font-size: 0.9em;
+	margin: 4px 0 0;
+	padding: 0 16px;
+	text-align: left;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article p.error-parametro-wrapper
+{
+	background-color: #DDD;
+	display: block;
+	font-weight: bold;
+	margin: 0;
+	padding: 4px 16px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form article p.error-parametro-wrapper span
+{
+	color: #333;
+	display: block;
+	text-align: left;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form div.wrapper-submit-formulario
+{
+	display: none;
+	height: 30px;
+	margin-top: 4px;
+	overflow: hidden;
+	width: 132px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form div.wrapper-submit-formulario a
+{
+	background-color: #ff7100;
+	color: #F5F5F5;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+	text-decoration: none;
+	vertical-align: top;
+	width: 132px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form div.wrapper-submit-formulario a:active
+{
+	top: 4px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form div.wrapper-submit-formulario a span
+{
+	display: inline-block;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	width: 132px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form div.wrapper-submit-formulario a span.frontal
+{
+	left: 0;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form div.wrapper-submit-formulario a:hover span.frontal
+{
+	left: -132px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form div.wrapper-submit-formulario a span.trasera
+{
+	font-size: 17px;
+	left: 132px;
+	line-height: 30px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form div.wrapper-submit-formulario a:hover span.trasera
+{
+	left: 0;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form input[type=submit]
+{
+	background-color: #ff7100;
+	border: 0;
+	color: #F5F5F5;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 4px;
+	overflow: hidden;
+	position: relative;
+	text-decoration: none;
+	vertical-align: top;
+	width: 132px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form p.campo-obligatorio
+{
+	display: block;
+	margin: 2px 16px;
+	text-align: right;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form p.campo-obligatorio span
+{
+	color: #ff7100;
+	display: inline-block;
+	line-height: 14px;
+	vertical-align: middle;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form p.campo-obligatorio span.campo-obligatorio-icono
+{
+	font-size: 12px;
+	margin-top: 1px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje form p.campo-obligatorio span.campo-obligatorio-texto
+{
+	font-size: 14px;
+	margin-left: 4px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje #introduccion-formulario-viaje
+{
+	display: block;
+	margin: 0;
+	padding: 0 1em;
+	width: 526px;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje #introduccion-formulario-viaje h3
+{
+	font-family: 'Poiret One', cursive;
+	font-size: 1.3em;
+	border-bottom: solid 1px #DDD;
+	padding: 1em 0 0.5em;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #formulario-viaje #introduccion-formulario-viaje p
+{
+	font-size: 0.9em;
+	line-height: 1.8em;	
+	padding: 0.7em 0;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #page-404 div 
+{
+	display: inline-block;
+	width: 400px;
+}
+#wrapper-principal #wrapper-cuerpo #page-404 div article
+{
+	background-color: #FFF;
+	border: solid 1px #DDD;
+	display: block;
+	height: 96px;
+	margin-top: 32px;
+	padding: 0 0 16px;
+	vertical-align: top;
+}
+#wrapper-principal #wrapper-cuerpo #page-404 div article h1
+{
+	background-color: #333;
+	color: #F5F5F5;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -1px;
+	padding: 4px 16px;
+	position: relative;
+	text-align: left;
+}
+#wrapper-principal #wrapper-cuerpo #page-404 div article h1 span
+{
+	color: #ff7100;
+	font-size: 50px;
+	position: absolute;
+	right: 10px;
+	transform: rotate(7deg);
+	-ms-transform: rotate(7deg);
+	-webkit-transform: rotate(7deg);
+	top: -10px;
+}
+#wrapper-principal #wrapper-cuerpo #page-404 div article p
+{
+	color: #333;
+	display: block;
+	font-size: 14px;
+	margin: 16px 0 0;
+	padding: 0 16px;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #page-404 div article p.url
+{
+	font-weight: bold;
+	margin-bottom: -8px;
+}
+#wrapper-principal #wrapper-cuerpo #page-404 figure
+{
+	display: inline-block;
+	margin: 32px 48px 0 0;
+	vertical-align: top;
+}
+#wrapper-principal #wrapper-cuerpo #resumen-viaje
+{
+	padding: 16px;
+}
+#wrapper-principal #wrapper-cuerpo #resumen-viaje article
+{
+	background-color: #333;
+	margin-top: 16px;
+}
+#wrapper-principal #wrapper-cuerpo #resumen-viaje article div.fila-resumen-viaje
+{
+	background-color: #ff7100;
+	padding-bottom: 16px;
+	overflow: hidden;
+}
+#wrapper-principal #wrapper-cuerpo #resumen-viaje article div.fila-resumen-viaje div
+{
+	display: inline-block;
+    margin-bottom: -32767px;
+	margin-top: -8px;
+	padding: 8px 16px 32767px;
+	vertical-align: top;
+	width: 432px;
+}
+#wrapper-principal #wrapper-cuerpo #resumen-viaje article div.fila-resumen-viaje div.columna-derecha-resumen-viaje
+{
+	background-color: #333;
+
+}
+#wrapper-principal #wrapper-cuerpo #resumen-viaje article div.fila-resumen-viaje div.columna-derecha-resumen-viaje p.pregunta-resumen-viaje
+{
+	color: #ffd8b9;
+}
+#wrapper-principal #wrapper-cuerpo #resumen-viaje article div.fila-resumen-viaje div.columna-izquierda-resumen-viaje
+{
+	background-color: #ff7100;
+}
+#wrapper-principal #wrapper-cuerpo #resumen-viaje article div.fila-resumen-viaje div.columna-izquierda-resumen-viaje p.pregunta-resumen-viaje
+{
+	color: #ffd8b9;
+}
+#wrapper-principal #wrapper-cuerpo #resumen-viaje article div.fila-resumen-viaje div.columna-izquierda-resumen-viaje p.respuesta-resumen-viaje
+{
+	color: #333;
+}
+#wrapper-principal #wrapper-cuerpo #resumen-viaje article div.fila-resumen-viaje div.columna-resumen-viaje-primera-vertical
+{
+	padding-top: 16px !important;
+}
+#wrapper-principal #wrapper-cuerpo #resumen-viaje article div.fila-resumen-viaje div p
+{
+	color: #F5F5F5;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #resumen-viaje article div.fila-resumen-viaje div p.pregunta-resumen-viaje
+{
+	font-size: 16px;
+}
+#wrapper-principal #wrapper-cuerpo #resumen-viaje article div.fila-resumen-viaje div p.respuesta-resumen-viaje
+{
+	font-size: 14px;
+}
+#wrapper-principal #wrapper-cuerpo #resumen-viaje h1
+{
+	border-bottom: solid 1px #DDD;
+	font-family: 'Poiret One', cursive;
+	font-size: 21px;
+	padding: 0 0 0.5em;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #reviews div.columna-reviews
+{
+	display: inline-block;
+	margin: -24px 32px;
+	vertical-align: top;
+	width: 400px;
+}
+#wrapper-principal #wrapper-cuerpo #reviews div.columna-reviews article
+{
+	background-color: #FFF;
+	border: solid 1px #DDD;
+	display: block;
+	height: 148px;
+	margin: 40px 0;
+	padding: 0 0 16px;
+	position: relative;
+}
+#wrapper-principal #wrapper-cuerpo #reviews div.columna-reviews article h2
+{
+	background-color: #333;
+	color: #F5F5F5;
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: -1px;
+	padding: 4px 65px 4px 16px;
+	position: relative;
+	text-align: left;
+}
+#wrapper-principal #wrapper-cuerpo #reviews div.columna-reviews article h2 span
+{
+	color: #ff7100;
+	font-size: 50px;
+	position: absolute;
+	right: 10px;
+	transform: rotate(7deg);
+	-ms-transform: rotate(7deg);
+	-webkit-transform: rotate(7deg);
+	top: -8px;
+}
+#wrapper-principal #wrapper-cuerpo #reviews div.columna-reviews article p
+{
+	color: #333;
+	display: block;
+	font-size: 14px;
+	margin: 16px 0 0;
+	padding: 0 16px;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #reviews div.columna-reviews article p.autor-cita
+{
+	bottom: 16px;
+	margin-top: 8px !important;
+	position: absolute;
+	right: 0;
+	text-align: right;
+}
+#wrapper-principal #wrapper-cuerpo #reviews div.columna-reviews article p.cita
+{
+	font-style: italic;
+}
+#wrapper-principal #wrapper-cuerpo #reviews div.columna-reviews-derecha
+{
+	margin-left: 8px !important;
+}
+#wrapper-principal #wrapper-cuerpo #travel-request article
+{
+	display: block;
+	margin: 16px 16px;
+}
+#wrapper-principal #wrapper-cuerpo #travel-request article p
+{
+	font-size: 14px;
+	line-height: 25px;
+	margin: 10px 0;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #travel-request article ul
+{
+	margin-left: 16px;
+}
+#wrapper-principal #wrapper-cuerpo #travel-request article ul li
+{
+	list-style: none;
+	margin: 10px 0;
+	position: relative;
+}
+#wrapper-principal #wrapper-cuerpo #travel-request article ul li p
+{
+	margin: 0 0 0 14px;
+}
+#wrapper-principal #wrapper-cuerpo #travel-request article ul li span.bola-lista
+{
+	background-color: #ff7100;
+	border-radius: 0.4em;
+	height: 0.4em;
+	left: 0;
+	position: absolute;
+	top: 0.6em;
+	width: 0.4em;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout
+{
+	height: 362px;
+	position: relative;
+	width: 100%;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout img
+{
+	height: 362px;
+	left: 270px;
+	position: absolute;
+	width: 203px;
+	z-index: 2000;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout section
+{
+	display: inline-block;
+	font-family: 'Poiret One', cursive;
+	height: 320px;
+	margin: 21px 0;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-naranja
+{
+	background-color: #ff7100;
+	position: relative;
+	width: 398px
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-naranja #contenido-layout-naranja
+{
+	height: 320px;
+	left: 2em;
+	position: absolute;
+	top: 4em;
+	width: 210px;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-naranja #contenido-layout-naranja div.wrapper-boton-reviews
+{
+	height: 30px;
+	margin-top: 2em;
+	overflow: hidden;
+	width: 132px;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-naranja #contenido-layout-naranja div.wrapper-boton-reviews a.boton-reviews
+{
+	background-color: #ffd8b9;
+	color: #333;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.7em;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	position: relative;
+	text-decoration: none;
+	width: 132px;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-naranja #contenido-layout-naranja div.wrapper-boton-reviews a.boton-reviews:active
+{
+	top:4px;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-naranja #contenido-layout-naranja div.wrapper-boton-reviews a.boton-reviews span
+{
+	display: inline-block;
+	height: 30px;
+	position: absolute;
+	width: 132px;	
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-naranja #contenido-layout-naranja div.wrapper-boton-reviews a.boton-reviews span.frontal
+{
+	left: 0;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-naranja #contenido-layout-naranja div.wrapper-boton-reviews a.boton-reviews:hover span.frontal
+{
+	left: -132px;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-naranja #contenido-layout-naranja div.wrapper-boton-reviews a.boton-reviews span.trasera
+{
+	font-size: 1.5em;
+	left: 132px;
+	line-height: 30px;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-naranja #contenido-layout-naranja div.wrapper-boton-reviews a.boton-reviews:active span.trasera
+{
+	color: #ff7100;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-naranja #contenido-layout-naranja div.wrapper-boton-reviews a.boton-reviews:hover span.trasera
+{
+	left: 0px;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-naranja #contenido-layout-naranja p
+{
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.9em;
+	font-weight: thin;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-naranja #contenido-layout-naranja p.autor-cita
+{
+	text-align: right;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-naranja #contenido-layout-naranja p.cita
+{
+	font-style: italic;
+	margin-top: 0.5em;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-negro
+{
+	background-color: #333;
+	color: #DDD;
+	width: 558px;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-negro #contenido-layout-negro
+{
+	height: 320px;
+	position: relative;
+	width: 558px;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-negro #contenido-layout-negro h1, #wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-negro #contenido-layout-negro h2
+{
+	font-size: 1.5em;
+	padding: 0.5em 0;
+	position: absolute;
+	text-align: left;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-negro #contenido-layout-negro #texto-1
+{
+	top: 0.5em;
+	right: 2em;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-negro #contenido-layout-negro #texto-2
+{
+	left: 4em;
+	top: 2.5em;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-negro #contenido-layout-negro #texto-3
+{
+	top: 4.5em;
+	right: 5em;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-negro #contenido-layout-negro #texto-4
+{
+	bottom: 2em;
+	color: #ff7100;
+	left: 6em;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-layout #layout-negro #contenido-layout-negro #texto-5
+{
+	bottom: 1.5em;
+	color: #CCC;
+	font-size: 1.1em;
+	left: 15em;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-texto
+{
+	margin: 2em 0;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-texto h1
+{
+	font-size: 1em;
+	margin: 1em 0;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-texto h2
+{
+	font-size: 0.9em;
+	font-weight: bold;
+	margin: 1em 0;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-texto p
+{
+	font-size: 0.9em;
+	margin: 1em 0;
+	text-align: justify;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-texto p a
+{
+	color: #ff7100;
+	text-decoration: none;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-texto p a:hover
+{
+	text-decoration: underline;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-texto ul
+{
+	margin: 1em 0 1em 1em;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-texto ul li
+{
+	font-size: 0.9em;
+	list-style: none;
+	text-align: justify;
+	position: relative;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-texto ul li p
+{
+	display: block;
+	margin: 0 0 0 1em;
+}
+#wrapper-principal #wrapper-cuerpo #wrapper-texto ul li span.bola-lista
+{
+	background-color: #ff7100;
+	border-radius: 0.4em;
+	height: 0.4em;
+	left: 0;
+	position: absolute;
+	top: 0.4em;
+	width: 0.4em;
+}
+#wrapper-superior
+{
+	background-color: #333;
+	height: 40px;
+	width: 100%;
+}
+#wrapper-superior #wrapper-superior-principal
+{
+	width: 960px;
+}
+#wrapper-superior #wrapper-superior-principal #redes-sociales
+{
+	text-align: right;
+}
+#wrapper-superior #wrapper-superior-principal #redes-sociales #facebook
+{
+	background: url('../images/iconos.png') no-repeat -80px 0;
+	display: inline-block;
+	float: right;
+	height: 30px;
+	margin: 5px 0 0 8px;
+	position: relative;
+	width: 30px;
+}
+#wrapper-superior #wrapper-superior-principal #redes-sociales #facebook span
+{
+	background: url('../images/iconos.png') no-repeat -80px -60px;
+	display: block;
+	height: 30px;
+	opacity: 0;
+	position: absolute;
+	width: 30px;
+}
+#wrapper-superior #wrapper-superior-principal #redes-sociales #facebook span:hover
+{
+	opacity: 1;
+}
+#wrapper-superior #wrapper-superior-principal #redes-sociales #twitter
+{
+	background: url('../images/iconos.png') no-repeat -80px -30px;
+	display: inline-block;
+	float: right;
+	height: 30px;
+	margin: 5px 0 0 8px;
+	width: 30px;
+}
+#wrapper-superior #wrapper-superior-principal #redes-sociales #twitter span
+{
+	background: url('../images/iconos.png') no-repeat -80px -90px;
+	display: block;
+	height: 30px;
+	opacity: 0;
+	position: absolute;
+	width: 30px;
+}
+#wrapper-superior #wrapper-superior-principal #redes-sociales #twitter span:hover
+{
+	opacity: 1;
+}
+#wrapper-superior #wrapper-superior-principal #redes-sociales span.texto-redes-sociales
+{
+	color: #ccc;
+	font-family: 'Poiret One', cursive;
+	font-size: 1.2em;
+	line-height: 40px;
+}
+.bloque-oculto
+{
+	display: none !important;
+}
+.comillas-abrir
+{
+	background: url("../images/iconos.png") 0 -120px no-repeat;
+	display: inline-block;
+	height: 10px;
+	margin-right: 0.2em;
+	vertical-align: top;
+	width: 13px;
+}
+.comillas-cerrar
+{
+	background: url("../images/iconos.png") -13px -120px no-repeat;
+	display: inline-block;
+	height: 10px;
+	margin-left: 0.2em;
+	vertical-align: top;
+	width: 13px;
+}
+.error-parametro
+{
+	border-color: #ff7100 !important;
+}
+.fondo-alerta
+{
+	background-color: #ffd8b9 !important
+}
+.icon-alojamiento, .icon-arrow, .icon-asterisco, .icon-bubble, .icon-bubble-puntos, .icon-calendario, .icon-comida, .icon-question, .icon-sobre, .icon-suitcase, .icon-tipo, .icon-transport, .icon-ubicacion, .icon-viaje, .icon-volver {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-alojamiento:before {
+	content: "\e602";
+}
+.icon-arrow:before {
+	content: "\e600";
+}
+.icon-asterisco:before {
+	content: "\e609";
+}
+.icon-bubble:before {
+	content: "\e000";
+}
+.icon-bubble-puntos:before {
+	content: "\e60c";
+}
+.icon-calendario:before {
+	content: "\e608";
+}
+.icon-comida:before {
+	content: "\e604";
+}
+.icon-question:before {
+	content: "\e60d";
+}
+.icon-sobre:before {
+	content: "\e60b";
+}
+.icon-suitcase:before {
+	content: "\e601";
+}
+.icon-tipo:before {
+	content: "\e606";
+}
+.icon-transport:before {
+	content: "\e603";
+}
+.icon-ubicacion:before {
+	content: "\e605";
+}
+.icon-viaje:before {
+	content: "\e607";
+}
+.icon-volver:before {
+	content: "\e60a";
+}
+.letra-alerta
+{
+	color: #ff7100 !important;
+}
+.margen-superior
+{
+	margin-top: 2em !important;
+}
+.negrita
+{
+	font-weight: bold !important;
+}
+.primer-elemento-vertical
+{
+	margin-top: 0 !important;
+}
+.puntero
+{
+	cursor: pointer;
+}
+.texto-ancho
+{
+	font-weight: bold;
+}
+.texto-resaltado
+{
+	font-size: 1.5em;
+}
+.transicion
+{
+	-webkit-transition: all 0.4s linear;  
+	-moz-transition: all 0.4s linear;
+	-ms-transition: all 0.4s linear;
+	-o-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+.transicion-media
+{
+	-webkit-transition: all 0.2s linear;  
+	-moz-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+.transicion-rapida
+{
+	-webkit-transition: all 0.1s linear;  
+	-moz-transition: all 0.1s linear;
+	-ms-transition: all 0.1s linear;
+	-o-transition: all 0.1s linear;
+	transition: all 0.1s linear;
+}
+.wrapper-boton-volver
+{
+	height: 30px;
+	margin-top: 16px;
+	overflow: hidden;
+	width: 132px;
+} 
+.wrapper-boton-volver .boton-volver
+{
+	background-color: #ff7100;
+	color: #F5F5F5;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 30px;
+	overflow: hidden;
+	position: relative;
+	text-decoration: none;
+	width: 132px;
+}
+.wrapper-boton-volver .boton-volver:active
+{
+	top: 4px;
+}
+.wrapper-boton-volver .boton-volver span
+{
+	display: inline-block;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	width: 132px;
+}
+.wrapper-boton-volver .boton-volver span.frontal
+{
+	left: 0;
+}
+.wrapper-boton-volver .boton-volver:hover span.frontal
+{
+	left: -132px;
+}
+.wrapper-boton-volver .boton-volver span.trasera
+{
+	font-size: 17px;
+	left: 132px;
+	line-height: 30px;
+}
+.wrapper-boton-volver .boton-volver:hover span.trasera
+{
+	left: 0px;
+}
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon/icomoon.eot');
+	src:url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon/icomoon.woff') format('woff'),
+		url('../fonts/icomoon/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'TerminalDosis';
+	src:url('../fonts/TerminalDosis/TerminalDosis.eot');
+	src:url('../fonts/TerminalDosis/TerminalDosis.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/TerminalDosis/TerminalDosis.woff') format('woff'),
+		url('../fonts/TerminalDosis/TerminalDosis.ttf') format('truetype'),
+		url('../fonts/TerminalDosis/TerminalDosis.svg#TerminalDosis') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
